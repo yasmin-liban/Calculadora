@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Calculadora</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+   	<b>
+		<div class="um">
+			<div class="corpo" >
+				<h1 class="equa" >Equação de 2° grau</h1>
+				Ex: ax²+bx+c=0
+				<br>
+				a:<input type="text" id="n1" name="n1" placeholder="Digite um número aqui...">
+				<br>
+				b:
+				<input type="text" id="n2" name="n2" placeholder="Digite um número aqui...">
+				<br>
+				c:
+				<input type="text" id="n3" name="n3" placeholder="Digite um número aqui...">
+				<br>   
+				<button onclick="equa()">GET</button>
+				<br>
+				Resultado: <spam id="resul">???</spam>
+				<br>
+				<spam id="xyv"> </spam>   
+			
+			</div>
+			<div class="corpo">
+				<canvas id="canvas1" width="500" height="500" style="border:1px black solid;"></canvas>
+			</div> 
+		</div>
+		<hr>
+   	  <h1>Divisores Comuns</h1>
+   	  <p class="ex"> Ex: MDC(2,4)=2 </p>
+   	  <p class="corpo" >
+   			a:
+   			<input type="text" id="n4" name="n4" placeholder="Digite um número aqui...">
+   			<br>
+   			b:
+			<input type="text" id="n5" name="n5" placeholder="Digite um número aqui...">
+			<br>   
+   			<button onclick="div_comun()">GET</button>
+   			<br>
+   			Resultado: <spam id="resul2">???</spam></b>
+   	  </p>
+   </body>
+</html>
